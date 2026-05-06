@@ -1,0 +1,10 @@
+alert "Hello Raidy!"
+
+let x = 5
+let y = 10
+
+alert "Calculating..."
+
+let result = 15
+
+print result
