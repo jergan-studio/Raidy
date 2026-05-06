@@ -1,19 +1,27 @@
 {
   "name": "raidy-lang",
   "displayName": "Raidy Language",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
   "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:raidy.run"
+  ],
   "contributes": {
+    "commands": [
+      {
+        "command": "raidy.run",
+        "title": "Run Raidy File"
+      }
+    ],
     "languages": [
       {
         "id": "raidy",
         "extensions": [".raidy"]
       }
-    ],
-    "commands": [
-      {
-        "command": "raidy.run",
-        "title": "Run Raidy App"
-      }
     ]
   }
+}
 }
