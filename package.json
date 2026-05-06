@@ -1,0 +1,19 @@
+{
+  "name": "raidy-lang",
+  "displayName": "Raidy Language",
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "raidy",
+        "extensions": [".raidy"]
+      }
+    ],
+    "commands": [
+      {
+        "command": "raidy.run",
+        "title": "Run Raidy App"
+      }
+    ]
+  }
+}
